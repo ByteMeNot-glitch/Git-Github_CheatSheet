@@ -20,3 +20,6 @@ git commit -m "New Added Files"                              ("Message Of New Ch
 =====> Recover lost commits or changes
 git log || git log --oneline || git reflog                    (Get More Detailed checkpoints)
 git reset --hard <commit-hash>
+
+=====> To Delete A Branch
+git branch -d bname

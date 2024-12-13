@@ -4,7 +4,6 @@ Can Add .gitignore file => Git Track this file but files mentioned in this file 
 
 If Need An Empty Folder But git dont track empty folder so use .gitkeep file inside of it to track empty folder.
 We Go to the branch(main) and after that call for other branch to merge(testing)
-To delete a branch => git branch -d bname
 
 Use git add . when you want to stage everything in the current directory and its subdirectories.
 Use git add * when you want to stage only the visible files in the current directory
