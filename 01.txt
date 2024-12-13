@@ -15,7 +15,19 @@ git status                                                   (So Dont Override E
 git init                                                     (Initialize)
 git add file1.txt file2.txt OR .                             (. To Add All Files of current and subdirectories)||(Staging Area/Tracking Starts)
 git commit -m "New Added Files"                              ("Message Of New Change")
+git remote -v                                                (Check Fetch/Push Path)
+git remote add origin https://github.com/ByteMeNot-glitch/Git-Github_CheatSheet.git
+git push -u origin main (added upstream default so afterwards only use => git push)
 
+=====> Some More FineTune
+git diff <branch-name-one> <branch-name-two>
+git stash                    (Stash is a way to save your changes in a temporary location) Never Apply One branch Stash To anther Branch
+git stash list
+git stash apply stash@{0} || git stash apply stash@{0} <branch-name>
+git stash drop               (Only Top One Get Drop)
+git stash clear
+git tag <tag-name> <commit-hash>
+git rebase branchName                                         (Never Apply Directly On Main Branch)
 
 =====> Recover lost commits or changes
 git log || git log --oneline || git reflog                    (Get More Detailed checkpoints)
