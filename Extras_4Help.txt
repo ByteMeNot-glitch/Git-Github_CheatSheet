@@ -18,3 +18,9 @@ git checkout orange-mode - This command switches to the orange-mode branch.
 Commit before switching to a branch
 Go to .git folder and checkout to the HEAD file
 
+Discard all uncommitted changes	git reset --hard HEAD
+Discard changes in a specific file	git restore <file>
+Unstage all staged changes	git restore --staged .
+Remove all untracked files	git clean -f
+Remove untracked directories	git clean -fd
+Preview untracked files for removal	git clean -n
