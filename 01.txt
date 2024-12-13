@@ -1,0 +1,15 @@
+WRITE => ADD => COMMIT => PUSH
+git --version
+
+=====> First Register For Sync
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+git config --list                                            (Check For Email And Name)
+
+=====> Now Get Ready At System Level
+pwd || Move to working directory first
+git status                                                   (So Dont Override Existing)
+git init                                                     (Initialize)
+git add file1.txt file2.txt OR .                             (. To Add All Files of current and subdirectories)||(Staging Area/Tracking Starts)
+git commit -m "New Added Files"                              ("Message Of New Change")
+
