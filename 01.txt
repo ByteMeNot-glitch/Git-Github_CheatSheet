@@ -16,3 +16,7 @@ git init                                                     (Initialize)
 git add file1.txt file2.txt OR .                             (. To Add All Files of current and subdirectories)||(Staging Area/Tracking Starts)
 git commit -m "New Added Files"                              ("Message Of New Change")
 
+
+=====> Recover lost commits or changes
+git log || git log --oneline || git reflog                    (Get More Detailed checkpoints)
+git reset --hard <commit-hash>
